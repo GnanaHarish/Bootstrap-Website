@@ -1,0 +1,196 @@
+#title{
+  background-color: #43aaf6;
+}
+body{
+  font-family: Montserrat;
+}
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h1{
+  font-family: 'Secular One', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 5%;
+}
+
+/* NavBar */
+#title{
+  position: relative;
+  z-index: -1;
+}
+
+.row{
+  margin: 0;
+}
+.navbar-brand{
+  font-family: 'Caveat', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: "Montserrat-light"
+}
+
+/* Welcome Content */
+.logocontianer{
+  padding: 0;
+}
+.title-one{
+  padding: 0;
+}
+.download-button{
+  margin: 10% 2% 0 0;
+}
+
+/* Nav Image */
+.luffy-image{
+  width: 110%;
+  transform: rotate(90deg);
+  position: relative;
+  left: 40px;
+  top: 75px;
+  /* z-index: -75;
+  top: 25%; */
+}
+
+/* questions */
+h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+#features{
+
+  /* margin-top: 100px; */
+  padding: 12% 2% 2%;
+  text-align: center;
+  /* margin-bottom:5px; */
+  position: relative;
+  z-index:1;
+  background-color: #fff;
+}
+.what{
+  margin-bottom: 50px;
+}
+.why{
+  margin-bottom: 50px;
+}
+.where{
+  margin-bottom: 50px;
+}
+
+#features i{
+  margin-bottom: 20px;
+}
+#features p{
+  color: #8f8f8f;
+}
+.fa-heart:hover{
+  color: #d0270c !important;
+}
+
+.fa-question:hover{
+color : #f2de3e !important;
+}
+
+.fa-map-marker-alt:hover{
+color : #040506 !important;
+}
+
+/* Quotes */
+#quotes{
+
+  background-color: #5ebbf0;
+;
+  text-align: center;
+
+}
+#quotes h2{
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+#quotes img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-inner{
+  padding: 3% 15%;
+}
+
+/* watch */
+#watch{
+  background-color: #5ebbf0;
+  text-align: center;
+
+}
+.watch-logo{
+  width: 15%;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-tag{
+
+  padding: 3% 2%;
+}
+
+/* Media Query */
+ @media (max-width : 1076px) {
+  .luffy-image{
+     transform: rotate(0);
+     width: 35%;
+     margin-bottom : 15%;
+     margin-right: 15%;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* footer */
+#cta{
+  background-color: #43aaf6;
+  text-align: center;
+  padding: 8% 14%;
+}
+#cta h3{
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+    padding: 5% 8%;
+    background-color: #fff;
+}
+.footer-icons{
+  margin-bottom: 20px;
+
+}
+.footer-icons i{
+  margin-left: 20px;
+}
